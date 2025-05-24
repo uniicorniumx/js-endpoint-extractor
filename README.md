@@ -21,14 +21,14 @@ A Chrome extension that extracts JavaScript endpoints, flags risky code patterns
 git clone https://github.com/uniicorniumx/js-endpoint-extractor.git
 
 ## 🧪 How to Use
-   Visit any webpage.
-   Click the JS Endpoint Extractor icon.
+Visit any webpage.
+Click the JS Endpoint Extractor icon.
    View:
-     Detected endpoints
-     Vulnerable patterns (highlighted)
-     Libraries in use
-     Reachability status of each endpoint
-  Click “Export JSON Report” to download analysis.
+     Detected endpoints,
+     Vulnerable patterns (highlighted),
+     Libraries in use,
+     Reachability status of each endpoint.
+Click “Export JSON Report” to download analysis.
     
 ## 📂 Project Structure
 manifest.json – Chrome extension config
