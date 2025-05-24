@@ -38,10 +38,7 @@ manifest.json – Chrome extension config
   background.js – (placeholder for future enhancements)
 
 ## 🛡️ Risky Patterns Detected
-eval(), innerHTML, document.write()
-  setTimeout() with string eval
-  fetch(), XMLHttpRequest, .open()
-  Accessing document.cookie or location.href
+eval(), innerHTML, document.write(), setTimeout() with string eval, fetch(), XMLHttpRequest, .open(), Accessing document.cookie or location.href
     
 ## 🔍 Library Detection
 Identifies if the page is using:
@@ -52,13 +49,13 @@ Identifies if the page is using:
 
 ## 📥 Export Report
 Outputs a JSON report with:
-  Source file
-  Vulnerabilities detected
-  Libraries detected
-  Endpoints & reachability
+  Source file,
+  Vulnerabilities detected,
+  Libraries detected,
+  Endpoints & reachability,
   Severity score
 
 ## 🔧 Future Improvements
-  Version fingerprinting (e.g., jQuery 1.6.3)
-  Real-time alerts in popup
+  Version fingerprinting (e.g., jQuery 1.6.3),
+  Real-time alerts in popup,
   Export HTML report
